@@ -33,6 +33,7 @@ func createDirectory(){
 
 /// This function will store your document to some temporary URL and then provide sharing, copying, printing, saving options to the user
 
+//MARK: - DOWNLOADING
 func storeAndShare(withURLString: String, pathUrl: URL) {
     
     guard let url = URL(string: withURLString) else { return }
