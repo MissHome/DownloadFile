@@ -61,6 +61,10 @@ extension URL {
     }
 }
 
+func Testing() -> Int{
+    return 1
+}
+
 
 // ########## Below functions are not using this project #########
 
